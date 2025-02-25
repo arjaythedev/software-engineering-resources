@@ -35,6 +35,18 @@ export class EC2Stack extends cdk.Stack {
 }
 ```
 
+## EC2 Use Case: Hosting a Scalable Web Application
+A **startup** is building a web application that needs to handle unpredictable spikes in traffic. Instead of buying and managing physical servers, they use **Amazon EC2** to deploy and scale their application.
+
+## How EC2 Helps
+1. **Flexible Instance Selection** – Start with a small instance and upgrade as demand grows.
+2. **Auto Scaling** – Automatically adds or removes instances based on traffic.
+3. **Load Balancing** – Distributes incoming requests to maintain performance.
+4. **Security & Networking** – Secure application traffic using security groups and IAM roles.
+5. **Cost Efficiency** – Mix On-Demand, Reserved, and Spot instances for optimized pricing.
+
+By using EC2, the startup ensures **high availability, scalability, and cost efficiency**.
+
 ## EC2 Instance Types
 EC2 provides multiple instance types suited for different workloads:
 - **General Purpose (e.g., t3, m5)** – Balanced CPU, memory, and networking.
