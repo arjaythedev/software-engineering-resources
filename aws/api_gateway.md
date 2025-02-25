@@ -43,6 +43,20 @@ export class ApiGatewayStack extends cdk.Stack {
 }
 ```
 
+## API Gateway Use Case: Microservices API Gateway for an E-Commerce Platform
+
+An **e-commerce platform** needs a unified entry point to handle API requests for product listings, order management, and payments across multiple microservices. **Amazon API Gateway** enables efficient and secure routing of these requests.
+
+## How API Gateway Helps
+
+1. **Manages API Requests** – Routes requests to different microservices (e.g., product catalog, checkout, user authentication).
+2. **Integrates with AWS Lambda & EC2** – Serverless backend for dynamic scaling or traditional EC2 instances.
+3. **Security & Authorization** – Implements IAM, JWT-based authentication, and WAF protection.
+4. **Traffic Control & Rate Limiting** – Prevents abuse and ensures fair resource allocation.
+5. **Monitoring & Logging** – Uses AWS CloudWatch to track request metrics and API health.
+
+By using API Gateway, the e-commerce platform **ensures high availability, security, and scalability across its microservices**.
+
 ## Deployment Models
 - **Edge-optimized APIs** – Best for APIs that serve global traffic; integrates with AWS CloudFront.
 - **Regional APIs** – Ideal for applications within a specific AWS region.
