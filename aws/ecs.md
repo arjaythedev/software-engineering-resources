@@ -36,6 +36,17 @@ export class ECSStack extends cdk.Stack {
 }
 ```
 
+## Use Case Example: Hosting a School Project Website
+Imagine you're a high school student working on a group project where you need to build a website to showcase your research. You have a web application that your team developed using **HTML, CSS, and JavaScript**. You want to make this website accessible online so anyone can visit it.
+
+### How ECS Helps:
+1. **Containerize Your Website**: Instead of setting up a full web server manually, you package your website into a Docker container.
+2. **Deploy with ECS**: You upload this container to AWS ECS, where it runs in a managed environment.
+3. **Scalability**: If more students start visiting your site, ECS can automatically create more containers to handle the extra traffic.
+4. **Cost Efficiency**: With AWS Fargate, you only pay when someone accesses your website, saving money compared to running a server 24/7.
+
+By using ECS, you don't need to worry about managing servers, and you can focus on your project instead of spending time on infrastructure setup!
+
 ## ECS Launch Types
 ECS provides different deployment models based on workload requirements:
 
@@ -73,4 +84,3 @@ ECS can automatically scale services to handle varying levels of demand:
 - [AWS ECS Documentation](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)
 - [AWS CDK Documentation](https://docs.aws.amazon.com/cdk/latest/guide/home.html)
 - [ECS Best Practices](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/best-practices.html)
-
