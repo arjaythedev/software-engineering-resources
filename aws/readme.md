@@ -5,31 +5,31 @@ Welcome to the **AWS Directory** of the **Software Engineering Resources** repos
 ## 📂 Categories & Services
 
 ### ☁️ Compute
-- **[EC2](./aws_ec2.md)** – Virtual machines in the cloud with different instance types, pricing models, and auto-scaling capabilities.
-- **[Lambda](./aws_lambda.md)** – Serverless computing service to run code without provisioning infrastructure.
-- **[ECS](./aws_ecs.md)** – Managed container orchestration service for running Docker workloads.
+- **[EC2](./ec2.md)** – Virtual machines in the cloud with different instance types, pricing models, and auto-scaling capabilities.
+- **[Lambda](./lambda.md)** – Serverless computing service to run code without provisioning infrastructure.
+- **[ECS](./ecs.md)** – Managed container orchestration service for running Docker workloads.
 
 ### 📦 Storage & Databases
-- **[S3](./aws_s3.md)** – Scalable object storage with lifecycle policies, versioning, and Glacier for archival.
-- **[RDS](./aws_rds.md)** – Managed relational database service supporting MySQL, PostgreSQL, and more.
+- **[S3](./s3.md)** – Scalable object storage with lifecycle policies, versioning, and Glacier for archival.
+- **[RDS](./rds.md)** – Managed relational database service supporting MySQL, PostgreSQL, and more.
 
 ### 🏗️ Infrastructure as Code
-- **[CloudFormation](./aws_cloudformation.md)** – Infrastructure as Code service using YAML or JSON templates.
-- **[CDK](./aws_cloudformation.md#how-cdk-and-terraform-use-cloudformation)** – High-level abstraction that generates CloudFormation templates using programming languages.
-- **[Terraform](./aws_cloudformation.md#how-cdk-and-terraform-use-cloudformation)** – Third-party IaC tool supporting multi-cloud deployments.
+- **[CloudFormation](./cloudformation.md)** – Infrastructure as Code service using YAML or JSON templates.
+- **[CDK](./cloudformation.md#how-cdk-and-terraform-use-cloudformation)** – High-level abstraction that generates CloudFormation templates using programming languages.
+- **[Terraform](./cloudformation.md#how-cdk-and-terraform-use-cloudformation)** – Third-party IaC tool supporting multi-cloud deployments.
 
 ### 🔀 Networking & Traffic Management
-- **[Route 53](./aws_route53.md)** – Scalable domain name system (DNS) with traffic routing and health checks.
+- **[Route 53](./route53.md)** – Scalable domain name system (DNS) with traffic routing and health checks.
 
 ### 🔔 Messaging & Event-Driven Architecture
-- **[SNS](./aws_sns.md)** – Pub/Sub messaging service for notifications via email, SMS, SQS, and Lambda.
-- **[SQS](./aws_sqs.md)** – Message queue service for decoupling microservices and processing tasks asynchronously.
+- **[SNS](./sns.md)** – Pub/Sub messaging service for notifications via email, SMS, SQS, and Lambda.
+- **[SQS](./sqs.md)** – Message queue service for decoupling microservices and processing tasks asynchronously.
 
 ### 🔒 Security & Access Management
-- **[IAM](./aws_iam.md)** – Identity and Access Management for AWS users, roles, and permissions.
+- **[IAM](./iam.md)** – Identity and Access Management for AWS users, roles, and permissions.
 
 ### 📊 Monitoring & Logging
-- **[CloudWatch](./aws_cloudwatch.md)** – Collect, monitor, and analyze AWS metrics, logs, and alarms.
+- **[CloudWatch](./cloudwatch.md)** – Collect, monitor, and analyze AWS metrics, logs, and alarms.
 
 ## 📘 What’s Inside Each File?
 Each file contains:
