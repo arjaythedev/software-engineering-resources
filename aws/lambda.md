@@ -34,6 +34,18 @@ export class LambdaStack extends cdk.Stack {
 }
 ```
 
+## Lambda Use Case: Microservice API for a Scalable Application
+A **finance application** needs a lightweight, scalable backend to process real-time stock trades. Instead of managing servers, they use **AWS Lambda** to build a microservice API.
+
+## How Lambda Helps
+1. **Event-Driven Architecture** – Each trade request triggers a Lambda function to validate and process the transaction.
+2. **Serverless & Cost-Efficient** – Only runs when requests are received, eliminating idle costs.
+3. **Scales Instantly** – Handles spikes in trade volume without manual intervention.
+4. **Integrates with API Gateway** – Exposes a RESTful API without provisioning infrastructure.
+5. **Secure & Reliable** – Uses IAM roles, AWS WAF, and VPC for enhanced security.
+
+By using Lambda, the finance app **achieves a highly scalable, low-maintenance API architecture**.
+
 ## Concurrency in AWS Lambda
 Concurrency in AWS Lambda refers to the number of function instances that can be running at the same time.
 
