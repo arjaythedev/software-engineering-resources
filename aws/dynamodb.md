@@ -33,10 +33,10 @@ export class DynamoDBStack extends cdk.Stack {
 ```
 
 ## Best Practices
-- **Choose the right partition key** – Ensures even data distribution.
-- **Use secondary indexes wisely** – Optimize query performance.
-- **Monitor performance** – Use AWS CloudWatch for insights.
-- **Enable point-in-time recovery** – Protect against accidental data loss.
+- **Choose the right partition key** – A well-chosen partition key ensures even data distribution and prevents performance bottlenecks. Choose a high-cardinality attribute (one with many unique values) to distribute requests evenly across partitions. Avoid "hot partitions," which can cause throttling and increased latency.
+- **Use secondary indexes wisely** – Global and local secondary indexes allow for efficient querying of non-primary key attributes. However, indexes consume additional read and write capacity, so only create them when necessary. Optimize queries to minimize index scans and maximize efficiency.
+- **Monitor performance** – Use AWS CloudWatch metrics such as **ConsumedReadCapacityUnits**, **ConsumedWriteCapacityUnits**, **ThrottledRequests**, and **Latency** to track your table's performance. Enable AWS CloudTrail for auditing API calls and detect anomalies.
+- **Enable point-in-time recovery** – This feature provides continuous backups, allowing you to restore your table to any point within the last 35 days. This is crucial for disaster recovery and accidental data deletion scenarios. Enable it in the table settings to ensure data resilience.
 
 ## Additional Resources
 - [DynamoDB Documentation](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/)
