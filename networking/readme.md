@@ -20,7 +20,7 @@ Below is the roadmap for this series. I’ll add a new file each day, linked her
 
 - **Day 1: [WAN vs LAN](./wan_vs_lan.md)**  
   Learn the difference between Wide Area Networks (WAN) and Local Area Networks (LAN), and why it matters.
-- **Day 2:** *Coming soon!*  
+- **Day 2: [Network Address Translation](./nat.md)** 
 - **Day 3:** *Coming soon!*  
 - **Day 4:** *Coming soon!*  
 - **Day 5:** *Coming soon!*  
