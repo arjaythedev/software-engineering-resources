@@ -78,4 +78,5 @@ Let’s walk through what happens when you watch Netflix on your laptop at home.
 5. **You Watch**:
    - The video plays on your laptop, all thanks to the seamless interplay of LAN, WAN, and IP addressing!
 
+![Internet Access Diagram](./internet_access_diagram.png)
 ---
