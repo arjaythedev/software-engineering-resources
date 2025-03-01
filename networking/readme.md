@@ -40,6 +40,14 @@ Below is the roadmap for this series. I’ll add a new file each day, linked her
 1. Start with Day 1 and work your way through as the files are added.
 2. Each `.md` file is self-contained—read it, tinker with the concepts, and explore further if you’re curious.
 
+## Additional Resources
+
+Want to dive deeper? Here are some great places to learn more. I will continue to add more here as I make the series.
+- **Articles**:
+  - [Basics of Computer Networking](https://www.geeksforgeeks.org/basics-computer-networking/) - GeeksforGeeks
+- **Videos**:
+  - [Computer Networking Course](https://www.youtube.com/watch?v=qiQR5rTSshw) - freeCodeCamp (9-hour full course!)
+
 ## Let’s Get Started
 
 Ready to dive in? Head over to [Day 1: WAN vs LAN](./wan_vs_lan.md) and kick off your networking adventure. Check back daily for updates, or star this repo to stay in the loop!
